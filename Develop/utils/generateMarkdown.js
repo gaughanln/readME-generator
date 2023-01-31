@@ -1,9 +1,5 @@
 
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string - NEED A SWITCH CASE FOR THIS. 
-
-// this initially read function renderLicenseBadge(license){} - but I changed it to an arrow function for practice. is that ok?
-// a badge for that license is added near the top of the README
+// RENDER LICENSE BADGE: THIS INCLUDES THE BADGE, LINK, AND DESCRIPTION
 renderLicenseBadge = (license) => {
   switch(license) {
     case 'MIT':
@@ -27,22 +23,7 @@ renderLicenseBadge = (license) => {
 }
 
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-// a notice is added to the section of the README entitled License that explains which license the application is covered under
-// get info on license from github - createfile and search license
-// function renderLicenseSection(license) {
-//   if(license !== 'none') {
-//     return `\n* [License](##license)\n`;
-//    }
-//    return "";
-// }
-
-// TODO: Create a function to generate markdown for README
-// generated with the title of my project and...
-
-
-// template literal for readme - NEEDS HELP
+// RENDERING THE LICENSE WEBSITE LINK
 function renderLicenseLink(license) {
   if (license !== 'none') {
     return license 
@@ -50,45 +31,54 @@ function renderLicenseLink(license) {
     else ""
   }
 
+
+  // TEMPLATE LITERAL FOR README
+// the table of contents is not linking???
 const generateMarkdown = (data) => { 
   const badgeArray = renderLicenseBadge(data.license) 
-  console.log(badgeArray)
+  // deconstructing the badge to pull the following
   const [badge, link, description] = badgeArray
   return `
+
   ${badge}
+
   # ${data.title}
+
   ## Description 
   ${data.description} 
-  ## Table of contents
+
+  #### Table of contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
+  - [License](#license)
+
   ## Installation 
   ${data.installation} 
+
   ## Usage 
   ${data.usage} 
+
   ## Contributing 
   ${data.contributing} 
+
   ## Tests 
   ${data.test} 
-  ## Questions
+
+  ## Questions?
   If you need to contact me for any additional questions, I can be reached via
-  * Github username: ${data.github} + link
-  * email: ${data.email}
+  * Github: [${data.github}](https://github.com/${data.github})
+  * Email: ${data.email}
+  * 
   ## License
   ${description}
   ${renderLicenseLink(link)}
   `
 }
 
-  
- //destructuring the array
-
-
- // TODO: Create a function that returns the license link
- // If there is no license, return an empty string
  
-
-
-
-
 module.exports = generateMarkdown;
 
 

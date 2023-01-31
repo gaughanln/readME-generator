@@ -3,7 +3,7 @@ var inquirer = require("inquirer");
 const fs = require("fs");
 // linking to generateMarkdown.js file
 const generateMarkdown = require("./utils/generateMarkdown");
-// const { create } = require('domain');
+
 
 // TODO: Create an array of questions for user input
 const questions = [
