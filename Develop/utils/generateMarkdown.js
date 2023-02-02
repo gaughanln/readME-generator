@@ -52,7 +52,7 @@ const generateMarkdown = (data) => {
   - [Usage](#usage)
   - [Contributing](#contributing)
   - [Tests](#tests)
-  - [Questions](#questions?)
+  - [Questions](#questions)
   - [License](#license)
 
   ## Installation 
@@ -67,7 +67,7 @@ const generateMarkdown = (data) => {
   ## Tests 
   ${data.test} 
 
-  ## Questions?
+  ## Questions
   If you need to contact me for any additional questions, I can be reached via
   * Github: [${data.github}](https://github.com/${data.github})
   * Email: ${data.email}
