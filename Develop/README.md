@@ -2,32 +2,32 @@
 
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-  # TEST
+  # test
 
   ## Description 
-  none 
+  what 
 
   #### Table of contents
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contributing](#contributing)
   - [Tests](#tests)
-  - [Questions](#questions?)
+  - [Questions](#questions)
   - [License](#license)
 
   ## Installation 
-  none yet 
+  no 
 
   ## Usage 
-  nope 
+  idk 
 
   ## Contributing 
-  me 
+  hey 
 
   ## Tests 
   none 
 
-  ## Questions?
+  ## Questions
   If you need to contact me for any additional questions, I can be reached via
   * Github: [gaughanln](https://github.com/gaughanln)
   * Email: gaughanln@yahoo.com
