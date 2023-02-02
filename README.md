@@ -37,7 +37,7 @@ Here is the [link](https://github.com/gaughanln/readME-generator) to the Github 
 ## Contributing
 Lindsey Gaughan (Me!) 
 
-![Lindsey Gaughan](./application/assets/gaughanln.jpg){:height="200px"}
+![Lindsey Gaughan](./application/assets/gaughanln.jpg)
 
 
 
