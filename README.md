@@ -39,3 +39,7 @@ Lindsey Gaughan (Me!)
 
 ![Lindsey Gaughan](./application/assets/gaughanln.jpg){:height="200px"}
 
+
+
+https://user-images.githubusercontent.com/111533986/216470576-059ed02f-19d3-4476-a380-b3a05b139b38.mov
+
