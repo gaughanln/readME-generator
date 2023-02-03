@@ -25,7 +25,6 @@ I've created a README generator that works with the integrated terminal using no
 <!-- Video of application in progress -->
 ## End Product 
 Below is a video of the application in use 
-
 https://user-images.githubusercontent.com/111533986/216470576-059ed02f-19d3-4476-a380-b3a05b139b38.mov
 
 <!-- screenshots -->
